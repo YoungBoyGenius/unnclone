@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 39px 0px 105px;
+    min-width: 500px;
+}
+
+.header-img {
+    max-width: 300px;
+}
+
+@media (max-width: 390px) {
+    .header-img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .header-content-div ul li {
+        max-width: 50px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+}
+
+.header-content-div ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    color: rgb(47, 118, 47);
+    font-weight: 750;
+    font-size: small;
+    border-right: 1px green solid;
+    padding-right: 4px;
+    transition: 0.5s;
+}
+
+.last-on li:last-child {
+    border-right: none;
+   
+}
+
+.last-on li {
+    margin-left: 255px;
+    z-index: 1;
+}
+
+.header-content-div ul li:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.header-content-div ul {
+    margin-right: 18px;
+}
+
+
+.header-content-div img {
+    width: 10px;
+    margin-top: 0px;
+}
+
+.below-list {
+    /*this container holds unn mart search bar/button and portal button*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 0px 200px;
+}
+
+.below-list a {
+    /*unn mart decration*/
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(97, 185, 214);
+    transition: 0.5s;
+}
+
+.below-list a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+.search-img {
+    /*search button*/
+    height: 37px;
+    width: 25px;
+    border: none;
+    background-color: #E6DDDD;
+    margin-left: -1;
+    align-items: flex-start;
+}
+
+.search-bar {
+    /*search bar input*/
+    min-width: 50px;
+    height: 35px;
+    font-size: medium;
+    color: rgb(212, 189, 189);
+    box-shadow: inset 1px 2px 3px
+    rgba(0, 0, 0, 0.05);
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.search-bar ::placeholder {
+    color: #dfdfdf;
+}
+
+.portal-button button {
+    /*portal button obviously*/
+    color: #096C3A;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid green;
+    font-size: medium;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.portal-button button:hover {
+    background-color: #096C3A;
+    color: gray;
+}
+
+.header-lists ul li {
+    /*lists in the green div*/
+    transition: 0.5s;
+}
+
+.header-lists ul li:hover {
+    text-decoration: underline;
+    color: gray;
+
+}
+
+@media (max-width: 390px) {
+    .header-lists {
+       max-width: fit-content;
+       font-size: small;
+       font-weight: 100,;
+    }
+}
+
+/*code for the second part of the header starts here*/
+
+.header-lists {
+    background-color: #096C3A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-lists ul li {
+    display: inline-block;
+    color: white;
+    margin: 12px 10px 12px 10px;
+    font-size: larger;
+}
+
+.academics1 {
+    position: relative;
+}
+
+.academics {
+    position: absolute;
+    background-color: yellow;
+    left: 50px;
+    right: 50px;
+}

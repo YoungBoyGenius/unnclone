@@ -1,0 +1,85 @@
+.sub-menu-1 {
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    margin-right: -5px;
+    box-shadow: 0 0 12px -2px;
+}
+
+.header-content-div ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.sub-menu-1 ul li {
+    color: green;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 4px;
+    border-right: none;
+    padding: 10px 0 10px 5px;
+}
+
+.sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-menu-1 ul li:hover {
+    text-decoration: underline green solid;
+}
+/*all the codes above are for TETFund Intervention*/
+
+.sub-menu-2 {
+    position: absolute; 
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    margin-right: -5px;
+    box-shadow: 0 0 12px -2px;
+    z-index: 2;
+}
+
+.sub-menu-2 ul li {
+    width: 150px;
+    color: green;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 4px;
+    border-right: none;
+    padding: 10px 0px 10px 5px;
+}
+
+.header-content-div ul li:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+/*all the codes above is for donations*/
+
+.sub-menu-3 {
+    position: absolute; 
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    margin-right: -5px;
+    box-shadow: 0 0 12px -2px;
+    z-index: 2;
+}
+
+.sub-menu-3 ul li {
+    width: 150px;
+    color: green;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 4px;
+    border-right: none;
+    padding: 10px 0px 10px 5px;
+    transition: 0.5s;
+}
+
+.header-content-div ul li:hover .sub-menu-3 {
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
